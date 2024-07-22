@@ -1,3 +1,2 @@
 # terraform 
-devops task 
-d
+devops task dev
