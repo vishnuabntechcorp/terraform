@@ -5,7 +5,7 @@ pipeline {
     environment {
 
         AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
-
+									//
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
 
     } 
@@ -55,7 +55,7 @@ pipeline {
 
                 dir('terraform') {
 
-                   // sh 'terraform apply -auto-approve'//  #//pratic base is used this command in realtime we dont use 
+                   // sh 'terraform apply -auto-approve'//  #// practice base use this command in real time; we don't use it
                     sh ' terraform apply'   // use this command 
                 }
 
