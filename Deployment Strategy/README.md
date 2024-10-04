@@ -1,7 +1,5 @@
 # Most Common Kubernetes Deployment Strategies (Examples & Code)
 
-You can find tutorial [here](https://youtu.be/lxc4EXZOOvE).
-
 ## Start Minikube
 
 ```bash
