@@ -26,13 +26,7 @@ This guide will help you set up an automated GitOps pipeline:
 1. **Automate Infrastructure**: Use Terraform and GitHub Actions to provision an EKS cluster.
 2. **Automate Application Deployment**: Use ArgoCD to monitor the application repository and deploy updates to the EKS cluster automatically.
 
----
-## Watch the Tutorial
 
-[![Automate EKS Infrastructure with Terraform & GitHub Actions | GitOps App Deployment with ArgoCD](https://img.youtube.com/vi/dy1CkxQv0SM/0.jpg)](https://youtu.be/dy1CkxQv0SM)
-
-[Watch the full tutorial on YouTube](https://youtu.be/dy1CkxQv0SM) to follow along with step-by-step instructions.
----
 ## **Pre-requisites**
 - **GitHub account** to create repositories.
 - **AWS account** with permissions to create EKS resources.
